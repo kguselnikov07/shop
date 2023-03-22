@@ -1,0 +1,128 @@
+.registration {
+    &__bg {
+        min-height: 148px;
+        background-color: $pink;
+    }
+    &__title {
+        padding: 59px 0 0 0;
+        font-size: 24px;
+        line-height: 29px;
+        color: $dark-pink;
+    }
+    &__wrapper {
+        min-height: 675px;
+        display: flex;
+        justify-content: space-between;
+    }
+    &__form {
+        margin: 64px 0 0 0;
+        width: 360px;
+    }
+    &__legend {
+        font-weight: 300;
+        color: $dark-blue;
+    }
+    &__input {
+        width: 360px;
+        height: 45px;
+        margin: 20px 0 0 0;
+        padding: 0 0 0 17px;
+        font-family: 'Lato';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 13px;
+        line-height: 16px;
+        border-style: none;
+        border: 1px solid #A4A4A4;
+        &:hover {
+            opacity: 0.5;
+        }
+    }
+    &__input-radio {
+        margin: 31px 10px 33px 0;
+        width: 17px;
+        height: 17px;
+    }
+    &__label {
+        top: 0;
+        font-weight: 300;
+        font-size: 11px;
+        line-height: 13px;
+        color: #000000;
+        padding: 0 20px 0 0;
+    }
+    &__text {
+        margin: 15px 0 0 0;
+        font-weight: 300;
+        font-size: 14px;
+        line-height: 16px;
+        color: #B1B1B1;
+    }
+    &__button {
+        position: relative;
+        margin: 39px 0 0 0;
+        width: 167px;
+        height: 50px;
+        background-color: $dark-pink;
+        border-style: none;
+        font-family: 'Lato';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 17px;
+        color: #FFFFFF;
+        padding: 0 0 0 29px;
+        text-align: left;
+        &:hover {
+            opacity: 0.5;
+        }
+        &:before {
+            content: '';
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            height: 10px;
+            width: 17px;
+            background-image: url(../img/arrow.png);
+        }
+    }
+    &__loyalty {
+        margin: 64px 0 0 0;
+        width: 652px;
+        min-height: 334px;
+    }
+    &__subtitle {
+        font-weight: 300;
+        font-size: 24px;
+        line-height: 29px;
+        color: #000000;
+    }
+    &__descr {
+        margin: 22px 0 0 0;
+        font-weight: 300;
+        font-size: 24px;
+        line-height: 29px;
+        color: #000000;
+    }
+    &__list {
+        margin: 21px 0 0 0;
+    }
+    &__item {
+        position: relative;
+        margin: 0 0 16px 42px;
+        font-weight: 300;
+        font-size: 24px;
+        line-height: 29px;
+        color: #000000;
+        &:before {
+            content: '';
+            position: absolute;
+            top: 8px;
+            left: -42px;
+            background: url(../img/check.png);
+            width: 20px;
+            height: 16px;
+        }
+    }
+    
+}

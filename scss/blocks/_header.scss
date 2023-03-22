@@ -1,0 +1,87 @@
+.header {
+    position: relative;
+    background-color: $dark-blue;
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        min-height: 75px;
+    }
+    &__logo {
+        margin: 0 41px 0 0;
+        &:hover {
+            opacity: 0.5;
+        }
+    }
+    &__loupe {
+        &:hover {
+            opacity: 0.5;
+        }
+    }
+    &__button {
+        background-color: transparent;
+        border: none;
+        margin: 0 33px 0 0;
+        cursor: pointer;
+        &:hover {
+            opacity: 0.5;
+        }
+    }
+    &__person-link {
+        margin: 0 33px 0 0;
+        &:hover {
+            opacity: 0.5;
+        }
+    }
+    &__cart {
+        &:hover {
+            opacity: 0.5;
+        }
+    }
+    &__navigation {
+        display: none;
+        position: absolute;
+        right: 0;
+        background: #FFFFFF;
+        box-shadow: 6px 4px 35px rgba(0, 0, 0, 0.21);
+        width: 232px;
+        min-height: 727px;
+        padding: 37px 0 0 33px;
+    }
+    &__menu {
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 17px;
+        color: #000000;
+    }
+    &__menu-title {
+        font-size: 14px;
+        line-height: 17px;
+        color: $dark-pink;
+    }
+    &__list {
+        margin: 4px 0 0 0;
+    }
+    &__list-product {
+        margin: 20px 0 0 0;
+    }
+    &__list-type {
+        padding: 0 0 0 22px;
+    }
+    &__menu-link {
+        display: block;
+        margin: 11px 0 0 0;
+        font-size: 14px;
+        line-height: 17px;
+        color: #6F6E6E;
+    }
+    &__menu-close {
+        position: absolute;
+        top: 16px;
+        right: 17px;
+        cursor: pointer;
+    }
+    .display-block {
+        display: block;
+    }
+}

@@ -1,0 +1,32 @@
+.advantage {
+    margin: 95px 0 0 0;
+    background-color: #222224;
+
+    &__list {
+        min-height: 341px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    &__item {
+        width: 305px;
+        min-height: 134px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    &__title {
+        @include font(20px, 24px);
+        color: #FBFBFB;
+    }
+    
+    &__descr {
+        @include font(14px, 17px, 300);
+        color: #FBFBFB;
+        text-align: center;
+    }
+}
+
