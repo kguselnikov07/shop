@@ -1,12 +1,19 @@
 .advantage {
     margin: 95px 0 0 0;
     background-color: #222224;
+    @include tablet {
+        margin: 65px 0 0 0;
+    }
 
     &__list {
         min-height: 341px;
         display: flex;
         justify-content: space-between;
         align-items: center;
+        @include tablet {
+            flex-direction: column;
+            padding: 48px 0 16px;
+        }
     }
     
     &__item {
@@ -16,6 +23,9 @@
         flex-direction: column;
         justify-content: space-between;
         align-items: center;
+        @include tablet {
+            margin: 0 0 48px 0;
+        }
     }
     
     &__title {

@@ -8,7 +8,10 @@ body {
 
 .container {
     margin: 0 auto;
-    width: 1140px;
+    width: 71%;
+    @include tablet {
+        width: 96%;
+    }
 }
 
 .visually-hidden {

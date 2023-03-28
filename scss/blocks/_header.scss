@@ -6,6 +6,7 @@
         justify-content: space-between;
         align-items: center;
         min-height: 75px;
+        padding: 0 16px;
     }
     &__logo {
         margin: 0 41px 0 0;
@@ -67,6 +68,12 @@
     }
     &__list-type {
         padding: 0 0 0 22px;
+        a {
+            text-decoration: none;
+            font-size: 14px;
+            line-height: 17px;
+            color: #6F6E6E;
+        }
     }
     &__menu-link {
         display: block;
